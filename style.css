@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(120deg,#c31432,#240b36);
+}
+h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    animation-name: sliding;
+    animation-duration: 1.5s;
+    position: relative;
+}
+
+.outline{
+    display: flex;
+    justify-content: center;
+    animation-name: sliding;
+    animation-duration: 1.5s;
+    position: relative;
+}
+
+.phone{
+    margin-top: 25px;
+    background-image: url("image/ipmock1.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    width: px;
+}
+
+@keyframes sliding {
+
+    0% {bottom: 100%;}
+    100% {bottom: 0%;}
+}
+
+.elements{
+    padding-top: 125px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-bottom: 105px;
+}
+
+.topele{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.tb1{
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgb(214, 214, 214);
+    outline: none;
+}
+
+.adbtn{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+}
+
+span{
+    padding: 8px;
+}
+
+.ild{
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+ul{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+margin-left: 20px;
+margin-top: 0px;
+
+}
+li{
+    padding: 10px;
+}
+
+
+.rembtn{
+    display: inline;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.ltitle{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.cbtn{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.clrbtn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .phone {
+        margin-top: 25px;
+        background-image: url("");
+        background-repeat: no-repeat;
+        height: 900px;
+        width: px;
+    }
+
+    .elements{
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+  }
